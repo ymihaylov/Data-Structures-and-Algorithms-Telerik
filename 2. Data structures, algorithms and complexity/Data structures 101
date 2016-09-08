@@ -1,0 +1,78 @@
+In computer way, a data structure is a particular way of storing and organizing data in a computer so that it can be used efficiently.
+Организация на данните = подредба
+Различните подредби ни дават различни свойства и действия които можем да правим върху структурата от данни. 
+
+При балансирано дърво скоростта на търсене е много бърза.
+
+Абстракция срещу имплементация
+
+Една структура от данни трябва да е ефективна, също както алгоритмите.
+
+Какви свойства има масива?
+- Може да се взима елемент по индекс много бързо (константна сложност)
+
+- Data structures and algorithms are the foundation of computer programming
+- Algorithm thinking, problem solving and data structures are vital for software engineers
+
+В момента се разработват много алгоритми за Big Data, Изкуствен интелект, извличане на информация от данни, data mining, knowledge extraction
+
+Алгоритми има почти навсякъде - игри (графики, вектори, engines), facebook, google, youtube
+
+Heap - https://en.wikipedia.org/wiki/Heap_(data_structure)
+Red-black tree
+
+Computatial complexity - is important for algorithm design and efficient programming
+
+Decimal използваме за точност, но работи много по-бавно от float
+Float използваме за игри - векторите за float, графиктие са float (по бързи са)
+
+Collections - структура от данни в която можем да запазим различни елементи от един и същи тип
+
+Abstract Data Types (ADT)
+=========================
+- Абстрактна структура от данни е когато не говорим за нейната имплементация.
+- Нейните операции и как може да бъде разпределена в паметта.
+- Когато дефинираме вече структурата от данни можем да я имплементираме по различни начини.
+
+Basic Data Structures
+=====================
+Lenear Structures
+- Елементите са подредени
+- Можем да говорим за наредба и индексация
+- Пример:
+	- Списъци (фиксирана дължина)
+	- Stack (LIFO Last in first out) - списания, завивки
+	- Queues (FIFO First In First Out) - опашка за списание
+
+Trees and tree-like structures
+- Binary, Ordered search trees, balanced, B-Trees, 
+- Има корен и листа (наследници)
+- Няма наредба на елементите
+- Изродени или балансирани дървета
+
+Dictionories (maps)
+- Има разпределение на елементите
+- Като масивите, но може на 0-евия и на 100-тния индекс да има елемнт а на останалите да няма
+- Бърз достъп до елементите, бързо добавяне и бързо търсене
+- недостатък е, че много памет и възможността за колизия
+
+Sets and bags
+- Set - множество - уникални елементи
+- Bag - не уникални елементи - мултимножество
+- Ordered sets, orderd bag и ordered dictionary - когато се foreach-ват - линейна сложност и ги получаваме подредени по някакъв критерии
+
+Priority queues / heaps
+- Алгоритъма Дейкстра разчита на приоритетните опашки (намиране на най къс път от връх до връх в граф)
+- Елемента който се зарежда най-отпред е елемента който е най голям.
+- Няма ред в приоритетната опашка
+- Heap е дърво разпределено в масив - най големия елемент е най-отпред
+
+Special tree structures
+- suffix tree (strings), interval tree (ranges), index tree, trie
+
+Graphs
+- Две множества и релация между тях
+- Множество от върхове, множество от пътища и функция между тях
+- Directed / Undirected
+- Weighted / unweighted
+- Connected / non-connected
