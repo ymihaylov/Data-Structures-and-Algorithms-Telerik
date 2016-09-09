@@ -1,2 +1,14 @@
 Algorithms 101
 
+In mathematics and computer science, an algorithm is a step-by step procedure for calculations. An Algorithm is an effective method expressed as a finite of well-defined instructions for calculating function.
+
+Процедура описана стъпка по стъпка, какво трябва да се случи и в крайна сметка да се изкара някакъв резултат.
+
+Има вход (масив, число, граф)
+Има изход (число)
+
+Алгоритмите най-често се описват в псевдо код.
+
+Термина идва от muhammad al khwarizmi - https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi (създателя на алгоритъма за квадратни уравнения)
+
+Алгоритмите са фундаментални за компютърните науки и за програмирането.
