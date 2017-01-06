@@ -1,10 +1,19 @@
 #include <iostream>
 
+// https://en.wikipedia.org/wiki/Quicksort
 // http://www.algolist.net/Algorithms/Sorting/Quicksort
+
+// Quicksort or partition-exchange sort
+
+// Avarage O(nlogn)
 
 int main()
 {
-	int unsorted_array[9] = {1, 12, 5, 26, 7, 14, 3, 7, 2};
+     std::cout << "Hello World!";
+}
 
-	std::cout << unsorted_array;
+void quicksort(int arr[], int left, int right)
+{
+	int i = left, j = right;
+	int tmp;
 }
